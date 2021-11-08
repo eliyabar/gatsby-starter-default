@@ -1,3 +1,9 @@
+require("dotenv").config({
+  path: `.env.development`,
+})
+
+console.log(`test env var: ${process.env.GATSBY_A}`)
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,

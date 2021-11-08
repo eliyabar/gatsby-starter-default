@@ -1,10 +1,10 @@
-FROM node:14-buster as build
+FROM node:16-buster as build
 RUN npm install -g gatsby-cli
 WORKDIR /app
-COPY package.json package-lock.json ./
+COPY package.json yarn.lock ./
 RUN yarn
 COPY . .
-RUN gatsby build
+RUN yarn build
 
 FROM nginx:alpine
 COPY --from=build /app/public /usr/share/nginx/html
