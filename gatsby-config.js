@@ -3,6 +3,7 @@ require("dotenv").config({
 })
 
 console.log(`test env var: ${process.env.GATSBY_A}`)
+console.log(`test env var: ${process.env.GATSBY_B}`)
 
 module.exports = {
   siteMetadata: {

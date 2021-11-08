@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 const envVar  = process.env.GATSBY_A
+const envVar2  = process.env.GATSBY_B
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Env Var:</p>
     <p>{envVar}</p>
+    <p>{envVar2}</p>
     <p>Now go build something great.</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
