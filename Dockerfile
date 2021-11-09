@@ -5,6 +5,6 @@ COPY package.json yarn.lock ./
 RUN yarn
 COPY . .
 RUN yarn build
-RUN echo ${GATSBY_A}
+RUN echo GATSBY_A: ${GATSBY_A}
 FROM nginx:alpine
 COPY --from=build /app/public /usr/share/nginx/html
