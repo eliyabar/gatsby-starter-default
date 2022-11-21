@@ -1,4 +1,4 @@
-FROM node:16-buster as build
+FROM node:18-buster as build
 RUN npm install -g gatsby-cli
 WORKDIR /app
 COPY package.json yarn.lock ./
