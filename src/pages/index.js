@@ -9,7 +9,7 @@ const envVar2  = process.env.GATSBY_B
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi Eliya Bar on</h1>
+    <h1>Hi Eliya Bar on !</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Env Var:</p>
     <p>{envVar}</p>
