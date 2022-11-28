@@ -19,7 +19,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the default starter.
 
     ```shell
-    # create a new Gatsby site using the default starter
+    # create a new Gatsby site using the default starter1
     gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
     ```
 
